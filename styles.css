@@ -1,0 +1,118 @@
+body {
+  background-color: white;
+    width: 980px;
+    margin: 100px auto;
+      
+}
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+    height: 130px;
+    width: 350px; 
+    background-color:skyblue;
+}
+
+h2 {
+  color: black;
+  font-family: verdana;
+  font-size: 100%;
+    height: 130px;
+    width: 350px;
+    margin-top: 50px;
+}
+p {
+  color: black;
+  border: 10px ;
+  font-family:serifa;
+}
+div {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+    border:20px;
+    font-family:verdana;
+    
+}
+div ul {
+    display: inline-flex;
+    flex-direction: : block;
+    justify-content: space-between;
+   list-style:none;
+    margin:0px auto;
+    padding:3px;
+    list-style: none;
+}
+div ul li a{
+    float:left;
+    padding: 10px 20px;
+    color:white;
+    text-decoration: none;
+}
+.login{
+    display:block;
+    float: right;
+    position:absolute;
+    right: 270px;
+    top:100px;
+    list-style:none;
+    padding:0;
+    background: #092327;
+    height: 70px;
+}
+.login ul li a{
+    color:white;
+    padding: 20px
+    display:block;
+     margin: auto;
+    
+}
+.login li{
+    
+    display:inline-block;
+    text-align: center;
+}
+
+ 
+.menu {
+    background-color:darkseagreen;
+    float: center;
+     height: 40px;
+    padding: 20px; 
+    width: 150%
+    border:30px; 
+    font-family:verdana;
+    
+ }
+.menu ul {
+    display: inline-flex;
+    flex-direction: : block;
+    justify-content: space-between;
+   list-style:none;
+    margin:auto;
+    
+    }
+
+.menu ul li a{
+    padding: 10px 20px;
+    display:block;
+    color:white;
+    float:left;
+    text-decoration: none;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin:20px auto;
+    width: 200%;
+    height: 200px;
+    position: relative;
+    left:80px;
+      margin-top: 70px;
+ }
